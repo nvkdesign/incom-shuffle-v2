@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Incom eSport - 1er site de paris - Accueil{% endblock %}</title>
+    <link href="src/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/css/main.css" rel="stylesheet">
+    <link href="src/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel='stylesheet' type='text/css'>
+    <script src="src/js/jquery.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <img class="logo" alt="Logo de incom esport" src="src/img/Incom_logo_blanc_web.png">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+            </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href= {{ path ('event_event_homepage') }}>Betting</a>
+                </li>
+                <li>
+                    <a href={{ path ('event_event_listevents') }}>Support</a>
+                </li>
+                <li class="dropdown">
+                    <a href="http://www.incomesport.com" class="dropdown-toggle" data-toggle="dropdown">incomesport<span style="color: #ff1827">.com</span><b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="http://www.incomesport.com">Page d'accueil</a>
+                        </li>
+                        <li>
+                            <a href="portfolio-2-col.html">Connexion</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://steamcommunity.com/openid/login?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.mode=checkid_setup&openid.return_to=http%3A%2F%2Fwww.dev.incomesport.com%2Fphp%2Fsteam-login-handle.php&openid.realm=http%3A%2F%2Fwww.dev.incomesport.com&openid.ns.sreg=http%3A%2F%2Fopenid.net%2Fextensions%2Fsreg%2F1.1&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select">
+                        <img src="http://cdn.steamcommunity.com/public/images/signinthroughsteam/sits_small.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container top">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-3 red">
+                <div>
+                    <h1>test</h1>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <h1>test</h1>
+            </div>
+            <div class="col-md-3">
+                <h1>test</h1>
+            </div>
+            <div class="col-md-3">
+                <h1>test</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
