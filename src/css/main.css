@@ -386,17 +386,34 @@ textarea {
 .max-deposit-circle {
     position: absolute;
     top: 23px;
-    left: 86px;
+    left: 161px;
 }
 
 .price-circle {
     position: absolute;
     top: 67px;
-    left: 81px;
+    left: 158px;
 }
 
 .timer-circle {
     position: absolute;
     top: 110px;
-    left: 103px;
+    left: 182px;
 }
+
+.players .content {
+    display: inline-block;
+}
+.players img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e6e6e6;
+    margin-right: 15px;
+    float: left;
+}
+
+.players .content h4 {
+     float: left;
+     line-height: 45px;
+    width: 80px;
+ }
