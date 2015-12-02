@@ -350,7 +350,7 @@ textarea {
 /*################SHUFFLE INCOM ###################*/
 
 
-.container.top {
+.container-fluid.top {
     margin-top: 40px;
 }
 .header.red {
@@ -382,25 +382,11 @@ textarea {
     margin-left: auto;
     margin-right: auto;
 }
-
-.max-deposit-circle {
+.info-circle {
     position: absolute;
-    top: 23px;
-    left: 161px;
+    top: 13px;
+    left: 278px;
 }
-
-.price-circle {
-    position: absolute;
-    top: 67px;
-    left: 158px;
-}
-
-.timer-circle {
-    position: absolute;
-    top: 110px;
-    left: 182px;
-}
-
 .players .content {
     display: inline-block;
 }
@@ -411,9 +397,3 @@ textarea {
     margin-right: 15px;
     float: left;
 }
-
-.players .content h4 {
-     float: left;
-     line-height: 45px;
-    width: 80px;
- }

@@ -17,6 +17,7 @@
     <script src="src/js/bootstrap.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="src/js/circle-progress.js"></script>
+    <script src="script.js"></script>
 
 </head>
 <body>
@@ -64,25 +65,26 @@
             </div>
         </div>
     </nav>
-    <div class="container top">
-
+    <div class="container-fluid top">
         <div class="row">
             <div class="col-md-3">
                 <div class="header red">
                     <h4>Min deposit</h4>
+                    <p class="text-right">test</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="header yellow">
                     <h4>Total money won</h4>
+                    <p id="total-money-won">&hellip;</p>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="header green">
+                <div class="header green" id="total-games-played">
                     <h4>Total game played</h4>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" id="biggest-pot-ever">
                 <div class="header blue">
                     <h4>Biggest pot</h4>
                 </div>
@@ -93,25 +95,31 @@
             <div class="col-md-4 players">
                 <h4>Players &nbsp; :</h4>
                 <hr>
-                <div class="content">
-                    <img src="src/img/chaton.jpg" alt="..." class="img-circle">
-                    <h4>nvkhq</h4>
-                    <h4>   &nbsp;10 skins</h4>
-                    <h4> 10 €</h4>
-                </div>
+                <img src="src/img/chaton.jpg" alt="..." class="img-circle">
+                <h4>nvkhq</h4>
+                <h4>   &nbsp;10 items worth 0.20€ for a 100% chance</h4>
             </div>
             <div class="col-md-4 text-center">
                 <div id="circle">
-                    <h2 class="max-deposit-circle">
-                        0/60
-                    </h2>
-                    <h2 class="price-circle">
-                        0.00$
-                    </h2>
-                    <h2 class="timer-circle">
-                        0s
-                    </h2>
+                    <div class="info-circle">
+                        <h2 class="max-deposit-circle">
+                            0/60
+                        </h2>
+                        <h2 class="price-circle">
+                            0.00$
+                        </h2>
+                        <h2 class="timer-circle">
+                            0s
+                        </h2>
+                    </div>
                 </div>
+            </div>
+            <div class="col-md-4 players">
+                <h4>Deposit items</h4>
+                <hr>
+                <img src="src/img/chaton.jpg" alt="..." class="img-circle">
+                <h4>nvkhq</h4>
+                <h4>Skins items</h4>
             </div>
         </div>
     </div>
